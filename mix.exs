@@ -68,6 +68,7 @@ defmodule Tesla.Mixfile do
 
       # other
       {:fuse, "~> 2.4", optional: true},
+      {:calendar, "~> 0.17", optional: true},
 
       # testing & docs
       {:excoveralls, "~> 0.8", only: :test},
